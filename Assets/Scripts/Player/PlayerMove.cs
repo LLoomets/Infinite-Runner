@@ -10,6 +10,7 @@ public class PlayerMove : MonoBehaviour
     public bool isJumping = false;
     public bool comingDown = false;
     public GameObject playerObject;
+ 
 
     void Update()
     {
