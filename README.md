@@ -8,6 +8,8 @@
 * Mängija saab joosta vajakule-paremale ja hüpata, kasutades klaviatuuril nooli või WAD (+SpaceBar hüppamiseks).
 
 ## Funktsionaalsused
+* Maailm genereerib automaatselt leveleid
+* Maailm eemaldab selja taga leveleid efektiivsuse jaoks
 * Mängija liigub ise edasi
 * Mängija saab liikuda vasakule-paremale kasutades vasak-parem nooli või A - D
 * Mängija saab hüpada kasutades üles noolt, W või SpaceBar-i
@@ -19,3 +21,19 @@
 * Mängu lõppemisel näeb mängija ekraanil kogutud punkte
 * Mängu lõppemisel läheb mängija tagasi menüüsse, kus saab uuesti mängida või mängu kinnipanna
 * Mängija tegelasel on animatsioonid ( jooksmine, hüppamine, kukkumine )
+
+## Menüü
+
+![Kuvatõmmis 2024-04-02 203538](https://github.com/LLoomets/Infinite-Runner/assets/146342702/78afadfb-9c92-4c47-9ae5-8b1034658806)
+
+## Stardiloend (Countdown)
+
+![Kuvatõmmis 2024-04-02 203553](https://github.com/LLoomets/Infinite-Runner/assets/146342702/82e2d465-d7ad-425b-8282-091f9e91cc2e)
+
+## Jooksmis vaade
+
+![Kuvatõmmis 2024-04-02 204023](https://github.com/LLoomets/Infinite-Runner/assets/146342702/a921e4d7-8d81-4eef-8e8c-3a19ff943b70)
+
+## Mängu lõpp ekraan
+
+![Kuvatõmmis 2024-04-02 203625](https://github.com/LLoomets/Infinite-Runner/assets/146342702/e9bef2c7-a9c0-418b-8039-51874bc612d2)
