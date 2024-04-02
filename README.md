@@ -37,3 +37,19 @@
 ## Mängu lõpp ekraan
 
 ![Kuvatõmmis 2024-04-02 203625](https://github.com/LLoomets/Infinite-Runner/assets/146342702/e9bef2c7-a9c0-418b-8039-51874bc612d2)
+
+## Kasutatud vahendid
+
+### Unity Asset Store (https://assetstore.unity.com/) 
+* https://assetstore.unity.com/packages/3d/environments/urban/free-low-poly-simple-urban-city-3d-asset-pack-239474
+
+### Mixamo (https://www.mixamo.com/#/)
+* Tegelane Michelle - https://www.mixamo.com/#/?page=2&type=Character
+* Animatsioonid - https://www.mixamo.com/#/?type=Motion%2CMotionPack
+- Offensive Idle
+- Standard Run
+- Running Forward Jump
+- Stumble Backwards
+
+
+
