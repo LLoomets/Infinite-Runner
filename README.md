@@ -50,6 +50,8 @@
   * Standard Run<br/>
   * Running Forward Jump<br/>
   * Stumble Backwards<br/>
+
+### Muud vahendid
 * GitHub - https://github.com/dgkanatsios/InfiniteRunner3D
 * YouTube - https://www.youtube.com/@JimmyVegasUnity
 * ChatGPT
