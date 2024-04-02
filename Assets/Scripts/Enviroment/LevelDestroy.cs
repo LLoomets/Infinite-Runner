@@ -14,7 +14,7 @@ public class LevelDestroy : MonoBehaviour
 
     IEnumerator DestroyClone()
     {
-        yield return new WaitForSeconds(40);
+        yield return new WaitForSeconds(35);
         if (parentName == "Section(Clone)")
         {
             Destroy(gameObject);
