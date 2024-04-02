@@ -8,7 +8,7 @@ public class LevelDestroy : MonoBehaviour
 
     void Start()
     {
-        parentName = transform.name;
+        parentName = transform.name; // parentName sama kui praegune object
         StartCoroutine(DestroyClone());
     }
 

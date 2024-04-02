@@ -17,14 +17,18 @@ public class EndRunSequence : MonoBehaviour
     IEnumerator EndSequence()
     {
         yield return new WaitForSeconds(3);
+
+        // peata live display
         liveCoins.SetActive(false);
         liveDis.SetActive(false);
+        // endscreen käima
         endScreen.SetActive(true);
 
         yield return new WaitForSeconds(3);
         fadeOut.SetActive(true);
 
         yield return new WaitForSeconds(2);
+        // mainMenu stseen
         SceneManager.LoadScene(0);
     }
 }

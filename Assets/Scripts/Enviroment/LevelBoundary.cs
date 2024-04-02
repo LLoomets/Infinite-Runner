@@ -12,6 +12,7 @@ public class LevelBoundary : MonoBehaviour
 
     void Update()
     {
+        // uuenda internal level kauguseid
         internalLeft = leftSide;
         internalRight = rightSide;
     }

@@ -24,7 +24,6 @@ public class LevelStarter : MonoBehaviour
         countDown1.SetActive(true);
         yield return new WaitForSeconds(1);
 
-
         PlayerMove.canMove = true;
     }
 }

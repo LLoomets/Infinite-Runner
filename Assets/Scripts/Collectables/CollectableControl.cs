@@ -12,7 +12,9 @@ public class CollectableControl : MonoBehaviour
 
     void Update()
     {
+        // live coinDisplay uuendamine
         coinCountDisplay.GetComponent<Text>().text = "" + coinCount;
+        // end coinDisplay uuendamine
         coinEndDisplay.GetComponent<Text>().text = "" + coinCount;
 
     }

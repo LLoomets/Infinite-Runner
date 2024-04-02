@@ -23,7 +23,9 @@ public class LevelDistance : MonoBehaviour
     IEnumerator AddingDis()
     {
         disRun += 1;
+        // live display uuendamine
         disDisplay.GetComponent<Text>().text = "" + disRun;
+        // end display uuendamine
         disEndDisplay.GetComponent<Text>().text = "" + disRun;
 
         yield return new WaitForSeconds(0.35f);

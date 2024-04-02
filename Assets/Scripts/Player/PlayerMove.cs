@@ -14,8 +14,10 @@ public class PlayerMove : MonoBehaviour
 
     void Update()
     {
+        // Player liigub lõpmtault edasi
         transform.Translate(Vector3.forward * Time.deltaTime * moveSpeed,  Space.World);
 
+        // Player liigub vasakule-paremale
         if (canMove == true)
         {
             if(Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
@@ -33,6 +35,7 @@ public class PlayerMove : MonoBehaviour
                     transform.Translate(Vector3.left * Time.deltaTime * leftRightSpeed * -1);
                 }
             }
+            // Player hüppab
             if (Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.Space))
             {
                 if (isJumping == false)
@@ -44,6 +47,7 @@ public class PlayerMove : MonoBehaviour
             }
         }
 
+        // Hüppe liikumised
         if (isJumping == true)
         {
             if (comingDown == false)
@@ -58,15 +62,20 @@ public class PlayerMove : MonoBehaviour
 
     }
 
+    // Hüppe sequence
     IEnumerator JumpSequence() 
     {
         float initialHeight = transform.position.y;
+
         yield return new WaitForSeconds(0.45f);
         comingDown = true;
+
         yield return new WaitForSeconds(0.45f);
         isJumping = false;
+
         comingDown = false;
         playerObject.GetComponent<Animator>().Play("Standard Run");
+        // Algus positsiooni
         transform.position = new Vector3(transform.position.x, initialHeight, transform.position.z);
     }
 }
