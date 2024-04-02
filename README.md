@@ -45,11 +45,14 @@
 
 ### Mixamo (https://www.mixamo.com/#/)
 * Tegelane Michelle - https://www.mixamo.com/#/?page=2&type=Character
-* Animatsioonid - https://www.mixamo.com/#/?type=Motion%2CMotionPack
-- Offensive Idle
-- Standard Run
-- Running Forward Jump
-- Stumble Backwards
+* Animatsioonid - https://www.mixamo.com/#/?type=Motion%2CMotionPack <br/>
+  * Offensive Idle<br/>
+  * Standard Run<br/>
+  * Running Forward Jump<br/>
+  * Stumble Backwards<br/>
+* GitHub - https://github.com/dgkanatsios/InfiniteRunner3D
+* YouTube - https://www.youtube.com/@JimmyVegasUnity
+* ChatGPT
 
 
 
