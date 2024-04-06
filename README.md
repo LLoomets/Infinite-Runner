@@ -34,7 +34,7 @@
 
 ![Kuvatõmmis 2024-04-02 204023](https://github.com/LLoomets/Infinite-Runner/assets/146342702/a921e4d7-8d81-4eef-8e8c-3a19ff943b70)
 
-## Mängu lõpp ekraan
+## Mängu lõppekraan
 
 ![Kuvatõmmis 2024-04-02 203625](https://github.com/LLoomets/Infinite-Runner/assets/146342702/e9bef2c7-a9c0-418b-8039-51874bc612d2)
 
